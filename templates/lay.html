@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% if title %}
+	<title>{{title}}</title>title>
+	{% else %}
+	<title>Amazon</title>
+	{% endif %}
+</head>
+<body>
+	<center><p> Welcome to mini amazon <p></center>
+	{% block body %}
+
+	{% endblock body %}
+
+</body>
+<footer> 
+	<p> &copy : Mini Amazon </p>
+
+	<a href='/home2'>home</a><br>
+
+	<a href='/contact'>contact</a><br>
+
+	<a href='/aboutme'>about</a><br>
+
+	
+</footer>
+</html>
+
