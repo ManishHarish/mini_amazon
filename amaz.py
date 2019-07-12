@@ -19,7 +19,6 @@ def about() :
 def contact() :
 	return render_template("contact.html")
 
-
 @app.route('/login',methods=['GET','POST'])
 
 def login() :
